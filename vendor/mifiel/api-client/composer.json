@@ -1,0 +1,45 @@
+{
+  "name": "mifiel/api-client",
+  "description": "Mifiel API Client for PHP",
+  "version": "2.0.3",
+  "keywords": [
+    "Firma electrónica",
+    "Firma electrónica Avanzada",
+    "Firma documentos electrónicos",
+    "FIEL",
+    "Mifiel"
+  ],
+  "type": "library",
+  "require": {
+    "php": ">=5.5",
+    "acquia/http-hmac-php": "^2.1",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.1",
+    "satooshi/php-coveralls": "^1.0",
+    "mockery/mockery": "^0.9.4"
+  },
+  "autoload": {
+    "psr-4": {"Mifiel\\": "src/"}
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Mifiel\\Tests\\": "tests/",
+      "Mifiel\\Tests\\Integration\\": "tests/integration/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mifiel Team and Contributors",
+      "email": "hola@mifiel.com",
+      "homepage": "https://www.mifiel.com",
+      "role": "Publisher"
+    },
+    {
+      "name": "Genaro Madrid",
+      "email": "genmadrid@gmail.com"
+    }
+  ]
+}

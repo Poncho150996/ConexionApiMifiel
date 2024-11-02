@@ -1,0 +1,6 @@
+{
+    "require": {
+        "mifiel/api-client": "^2.0",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
